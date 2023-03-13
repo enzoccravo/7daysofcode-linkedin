@@ -1,0 +1,17 @@
+:root {
+    --fonte: 'Roboto', sans-serif;
+    --fundo-card: #1B2226;
+    --texto-principal: rgba(255, 255, 255, 0.9);
+    --principal: #70B5F9;
+    --texto-escuro: rgba(0, 0, 0, 0.75);
+    --texto-secundario: rgba(255, 255, 255, 0.6);
+    --input: #38434F;
+}
+
+@import "/styles/perfil.css";
+@import "/styles/navbar.css";
+
+body {
+    font-family: var(--fonte);
+    background-color: black;
+}

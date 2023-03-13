@@ -1,0 +1,96 @@
+.perfil {
+    display: flex;
+    background-color: var(--fundo-card);
+    max-width: 780px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.perfil__banner {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.perfil__foto {
+    position: absolute;
+    top: 118px;
+    left: 24px;
+}
+
+.perfil__textos {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.perfil__nome {
+    color: var(--texto-principal);
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 56px;
+}
+
+
+
+.perfil__subnome {
+    color: var(--texto-principal);
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.perfil__local-contato {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.perfil__info, .perfil__local {
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.perfil__seguidores-conexoes {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.perfil__contato, .perfil__conexoes, .perfil__seguidores {
+    color: var(--principal);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.perfil__acoes {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+
+.perfil__mensagem, .perfil__mais {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 16px;
+    width: 8rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--principal);
+    margin-bottom: 1rem;
+}
+
+.perfil__mensagem {
+    background-color: var(--principal);
+    color: var(--fundo-card);
+}
+
+.perfil__mais {
+    color: var(--principal);
+}
+
