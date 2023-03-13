@@ -5,19 +5,25 @@
     flex-wrap: wrap;
     flex-direction: column;
     border-radius: 1rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
 }
 
 .perfil__banner {
-    position: relative;
-    top: 0px;
-    left: 0px;
+    width: min(100%, 782px);
+    height: 196px;
+    object-fit: cover;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
 }
 
 .perfil__foto {
-    position: absolute;
-    top: 118px;
-    left: 24px;
+    width: 156px;
+    height: 156px;
+    margin-top: -80px;
+    padding: 8px 24px 0;
 }
+
 
 .perfil__textos {
     padding-left: 24px;
@@ -30,7 +36,7 @@
     color: var(--texto-principal);
     font-weight: 600;
     font-size: 24px;
-    padding-top: 56px;
+    padding-top: 20px;
 }
 
 

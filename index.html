@@ -10,40 +10,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/perfil.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
     <title>LinkedIn</title>
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar__logo-search">
-            <img src="/img/linkedin.png" alt="Foto LinkedIn"> 
-            <input type="text"> 
-        </div>
-        <div class="navbar__inicio">
-            <img src="img/inicio.png" alt="Início">
-            <p class="navbar__inicio">Início</p>
-        </div>
-        <div class="navbar__rede">
-            <img src="/img/rede.png" alt="Rede" class="navbar__rede-img">
-            <p class="navbar__rede-txt">Minha rede</p>
-        </div>
-        <div class="navbar__vagas">
-            <img src="/img/vagas.png" alt="Vagas" class="navbar__vagas-img">
-            <p class="navbar__vagas-txt">Vagas</p>
-        </div>
-        <div class="navbar__mensagem">
-            <img src="/img/mensagem.png" alt="Mensagem" class="navbar__mensagem-img">
-            <p class="navbar__mensagem-txt">Mensagens</p>
-        </div>
-        <div class="navbar__notificacoes">
-            <img src="/img/notificacoes.png" alt="Notificacoes" class="navbar__notificacoes-img">
-            <p class="navbar__notificacoes-txt">Notificações</p>
-        </div>
-        <div class="navbar__solucoes">
-            <img src="/img/solucoes.png" alt="Soluções" class="navbar__solucoes-img">
-            <p class="navbar__solucoes-txt">Soluções</p>
-        </div>
+        <img src="/img/linkedin.png" alt="Logo linkedin" class="navbar__logo">
+        <input type="text" class="navbar__pesquisa" placeholder="Pesquisar">
 
+        <div class="navbar__menu">
+            <div class="navbar__menu-inicio navbar__menu-div">
+                <img src="/img/inicio.png" alt="inicio" class="navbar__menu-inicio-img">
+                <p class="navbar__menu-inicio-txt">Início</p>
+            </div>
+            <div class="navbar__menu-rede navbar__menu-div">
+                <img src="/img/rede.png" alt="rede" class="navbar__menu-rede-img">
+                <p class="navbar__menu-rede-txt">Minha rede</p>
+            </div>
+            <div class="navbar__menu-vag navbar__menu-div">
+                <img src="/img/vagas.png" alt="vagas" class="navbar__menu-vagas-img">
+                <p class="navbar__menu-vagas-txt">Vagas</p>
+            </div>
+            <div class="navbar__menu-mensagem navbar__menu-div">
+                <img src="/img/mensagem.png" alt="mensagem" class="navbar__menu-mensagem-img">
+                <p class="navbar__menu-mensagem-txt">Mensagens</p>
+            </div>
+            <div class="navbar__menu-notificacoes navbar__menu-div">
+                <img src="/img/notificacoes.png" alt="notificacoes" class="navbar__menu-notificacoes-img">
+                <p class="navbar__menu-notificacoes-txt">Notificações</p>
+            </div>
+            <div class="navbar__menu-solucoes navbar__menu-div">
+                <img src="/img/solucoes.png" alt="solucoes" class="navbar__menu-solucoes-img">
+                <p class="navbar__menu-solucoes-txt">Soluções</p>
+            </div>
+        </div>
     </nav>
+
     <section class="perfil">
         <div class="perfil__banner">
             <img src="/img/Imagem de capa.png" alt="Banner">
