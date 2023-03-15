@@ -1,0 +1,17 @@
+.sobre {
+    background-color: var(--fundo-card);
+    border-radius: 1rem;
+    max-width: 780px;
+    margin-left: 10rem;
+    margin-top: .5rem;
+}
+
+.sobre__titulo {
+    padding: 1rem 0 0 1.5rem;
+}
+.sobre__texto {
+    padding: .5rem 1.5rem 1rem 1.5rem;
+    color: white;
+    line-height: 20px;
+    text-align: justify;
+}

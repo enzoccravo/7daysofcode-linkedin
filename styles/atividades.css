@@ -1,0 +1,91 @@
+.atividades {
+    background-color: var(--fundo-card);
+    border-radius: 1rem;
+    max-width: 780px;
+    margin-left: 10rem;
+    margin-top: .5rem;
+}
+
+.atividades__titulo {
+    padding: 1rem 0 0 1.5rem;
+}
+
+.atividades__seguidores {
+    color: var(--principal);
+    font-weight: 700;
+    font-size: 14px;
+    padding: .3rem 0 0 1.5rem;
+}
+
+.atividades__container {
+    border-bottom: 1px solid var(--texto-secundario);
+    margin: 1rem 0 0 1rem;
+}
+
+.atividades__container p {
+    color: var(--texto-secundario);
+}
+
+.atividades__card {
+    display: flex;
+    row-gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.atividades__card-texto {
+    display: flex;
+    color: var(--texto-principal);
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: justify;
+    padding: 0 1rem 0 .5rem;
+}
+
+.atividades__card-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.atividades__card-topo {
+    display: flex;
+    flex-direction: row;
+    column-gap: .5rem;
+}
+
+.atividades__card-tempo {
+    border-left: 1px solid var(--texto-secundario);
+    padding-left: .5rem;
+}
+
+.atividades__card-meio {
+    display: flex;
+    flex-direction: row;
+}
+
+.atividades__card-reacoes-todo {
+    display: flex;
+    align-items: center;
+    padding-left: 0.7rem;
+    padding-bottom: 0.2rem;
+}
+
+.atividades__card-reacao {
+    margin-left: -0.5rem;
+}
+.atividades__card-baixo {
+    display: flex;
+    flex-direction: row;
+}
+
+.atividades__card-qt-comentarios {
+    margin-left: 590px;
+}
+
+.atividades__exibir-mais {
+    color: var(--texto-secundario);
+    text-align: center;
+    padding: .8rem;
+    text-decoration: none;
+}

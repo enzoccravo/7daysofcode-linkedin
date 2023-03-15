@@ -10,8 +10,17 @@
 
 @import "/styles/perfil.css";
 @import "/styles/navbar.css";
+@import "/styles/destaques.css";
+@import "/styles/atividades.css";
+@import "/styles/sobre.css";
 
 body {
     font-family: var(--fonte);
     background-color: black;
+}
+
+body h2 {
+    color: var(--texto-principal);
+    font-weight: 600;
+    font-size: 20px;
 }
