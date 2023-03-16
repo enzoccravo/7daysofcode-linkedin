@@ -13,6 +13,7 @@
 @import "/styles/destaques.css";
 @import "/styles/atividades.css";
 @import "/styles/sobre.css";
+@import "/styles/experiencias.css";
 
 body {
     font-family: var(--fonte);
